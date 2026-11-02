@@ -1,0 +1,221 @@
+{
+  "schema_version": 7,
+  "status": "passed",
+  "counts": {
+    "statements": 63,
+    "coded_statements": 60,
+    "content_codes": 9,
+    "questionnaire_items": 22,
+    "correlations": 66,
+    "mapped_correlation_targets": 14,
+    "patterns": 10,
+    "theme_links": 224,
+    "questionnaire_item_links": 96,
+    "correlation_pattern_links": 146,
+    "total_links": 466,
+    "archived_target_identifiers": 24
+  },
+  "code_coverage_checks": [
+    {
+      "code": "type of debt",
+      "decrease": 9,
+      "increase": 10,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "tool",
+      "decrease": 10,
+      "increase": 4,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "process",
+      "decrease": 28,
+      "increase": 21,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "benefit",
+      "decrease": 23,
+      "increase": 8,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "limitation",
+      "decrease": 13,
+      "increase": 21,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "example",
+      "decrease": 7,
+      "increase": 7,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "specification",
+      "decrease": 7,
+      "increase": 8,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "scope",
+      "decrease": 16,
+      "increase": 14,
+      "matches_recorded_counts": true
+    },
+    {
+      "code": "decision",
+      "decrease": 5,
+      "increase": 13,
+      "matches_recorded_counts": true
+    }
+  ],
+  "item_coverage_checks": [
+    {
+      "item_id": "BA1",
+      "increase": 4,
+      "decrease": 2,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "BA3",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "KN1",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "KN2",
+      "increase": 3,
+      "decrease": 3,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "AW1",
+      "increase": 2,
+      "decrease": 3,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "AW2",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "EN2.c",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "ED1",
+      "increase": 3,
+      "decrease": 2,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "OR1",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "OR2",
+      "increase": 2,
+      "decrease": 2,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "PC1",
+      "increase": 7,
+      "decrease": 5,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "PC2",
+      "increase": 3,
+      "decrease": 2,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "PC3.a",
+      "increase": 2,
+      "decrease": 3,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "TO1",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "TO2",
+      "increase": 2,
+      "decrease": 5,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "OR3",
+      "increase": 1,
+      "decrease": 1,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "PC5",
+      "increase": 2,
+      "decrease": 14,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "PC6",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "PC7",
+      "increase": 9,
+      "decrease": 7,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "TO6",
+      "increase": 0,
+      "decrease": 4,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "TO7",
+      "increase": 0,
+      "decrease": 0,
+      "matches_archived_counts": true
+    },
+    {
+      "item_id": "TO8",
+      "increase": 1,
+      "decrease": 2,
+      "matches_archived_counts": true
+    }
+  ],
+  "file_checksums": {
+    "README.md": "1bc1b84446507d1215ee245eb7fba2261ceefd53f1b30b09953b19897024cc45",
+    "TABLE_IV.md": "b46fda0d02e1bf31541b6e7650979277f2a7b850566a853f23ee809ec1e65d5b",
+    "TRACEABILITY.md": "2a7262ce374d3da4f8a9215fdb00d988d75f2ccd8246e1f7d31fad7ae9f7aab1",
+    "data/codebook.csv": "4fae33e90429cbc69247d53424024e54a80af9b08bb4828e81be4d4cafe0ff58",
+    "data/correlations.csv": "2a9f008f58ba9adafb1ba237dceb1190b25ec42dd2ce364d23c0436af30c3c2e",
+    "data/links.csv": "e2a76d1365fe93c31bac384937b4d370070585eca539c4c1d81238e6947a3d32",
+    "data/patterns.csv": "41cd5b4494fed6574e2618a932e0ebaa6d7296ba764ecd5947fcee5ca89c6d2f",
+    "data/questionnaire_items.csv": "17c515e2b1c373271dc6cad7f492d845ebad8be1c96459f7f3ba99de786267db",
+    "data/statement_anonym.csv": "7fe23d5aa0fed8363ade91eb8af4472ea4e0c2fa04b1629158a1fe0fdaed446e",
+    "data/statements.csv": "06b20e4e31bd5ce326958a9987529ceb88383df8a928a58fecc164a4fd06561f",
+    "scripts/reproduce.py": "3f7a7964598c78522f984bbc560c78e840fb8fdf44d7fa112298a296ba9b102d"
+  }
+}

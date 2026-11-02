@@ -1,0 +1,11 @@
+pattern_id,description,manuscript_label,archived_target_ids
+F02,Relationship between AI use and increased technical debt.,fig:ai-increment-td,F02
+F03,Relationship between AI use and decreased technical debt.,fig:ai-decrement-td,F03
+F04,Relationship between decreased and increased technical debt.,fig:decrement-increment-td,F04
+F05,Relationship between decreased technical debt and clear budget responsibility.,fig:decrement-td-clear-budget,F05
+F06,Relationship between decreased technical debt and code reviews helping to identify technical debt.,fig:decrement-td-code-reviews,F06
+F07,Relationship between decreased technical debt and the extent to which code debt is removed.,fig:decrement-td-removal-extent,F07
+F08,Relationship between decreased technical debt and the use of static code analyzers to identify technical debt.,fig:decrement-td-static-analyzers,F08
+F09,Relationship between decreased technical debt and the negative impact of architectural technical debt.,fig:decrement-td-architectural-impact,F09
+F10,Relationship between increased technical debt and managerial encouragement to take on technical debt.,fig:increment-td-manager-encouragement,F10
+F11,Relationship between increased technical debt and lower priority given to maintenance costs.,fig:increment-td-maintenance-cost-priority,F11

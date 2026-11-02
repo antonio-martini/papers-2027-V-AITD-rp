@@ -1,0 +1,67 @@
+correlation_id,focal_variable,item_id,rho,p_value,n,manuscript_item_id,qualitative_mapping_target,mapping_label,archived_target_ids
+C-AI1-BA1,AI1,BA1,0.019,0.879,70,BA1,false,,
+C-TD1-BA1,TD1,BA1,0.002,0.988,70,BA1,false,,
+C-TD2-BA1,TD2,BA1,-0.072,0.553,70,BA1,false,,
+C-AI1-BA3,AI1,BA3,0.121,0.317,70,BA3,false,,
+C-TD1-BA3,TD1,BA3,0.062,0.608,70,BA3,false,,
+C-TD2-BA3,TD2,BA3,0.062,0.611,70,BA3,false,,
+C-AI1-KN1,AI1,KN1,0.300,0.012,70,KN1,true,"AI use ↔ Use of TD in the organization; ρ=0.300, p=0.012, n=70",III:KN1
+C-TD1-KN1,TD1,KN1,0.042,0.729,70,KN1,false,,
+C-TD2-KN1,TD2,KN1,0.083,0.494,70,KN1,false,,
+C-AI1-KN2,AI1,KN2,0.236,0.049,70,KN2,false,,
+C-TD1-KN2,TD1,KN2,-0.002,0.987,70,KN2,false,,
+C-TD2-KN2,TD2,KN2,-0.032,0.792,70,KN2,false,,
+C-AI1-AW1,AI1,AW1,-0.036,0.765,70,AW1,false,,
+C-TD1-AW1,TD1,AW1,0.014,0.905,70,AW1,false,,
+C-TD2-AW1,TD2,AW1,0.186,0.123,70,AW1,false,,
+C-AI1-AW2,AI1,AW2,-0.134,0.268,70,AW2,false,,
+C-TD1-AW2,TD1,AW2,0.041,0.735,70,AW2,false,,
+C-TD2-AW2,TD2,AW2,0.072,0.553,70,AW2,false,,
+C-AI1-EN2.c,AI1,EN2.c,0.313,0.008,70,EN2,true,"AI use ↔ Encouragement from other managers (taking on TD); ρ=0.313, p=0.008, n=70",III:EN2
+C-TD1-EN2.c,TD1,EN2.c,0.183,0.129,70,EN2,false,,
+C-TD2-EN2.c,TD2,EN2.c,0.034,0.778,70,EN2,false,,
+C-AI1-ED1,AI1,ED1,0.172,0.154,70,ED1,false,,
+C-TD1-ED1,TD1,ED1,0.112,0.358,70,ED1,false,,
+C-TD2-ED1,TD2,ED1,-0.032,0.792,70,ED1,false,,
+C-AI1-OR1,AI1,OR1,0.345,0.003,70,OR1,true,"AI use ↔ Clarity of budget responsibility; ρ=0.345, p=0.003, n=70",III:OR1
+C-TD1-OR1,TD1,OR1,-0.252,0.035,70,OR1,false,,
+C-TD2-OR1,TD2,OR1,0.323,0.006,70,OR1,true,"perceived TD decrease ↔ Clarity of budget responsibility; ρ=0.323, p=0.006, n=70",V:OR1
+C-AI1-OR2,AI1,OR2,0.225,0.062,70,OR2,false,,
+C-TD1-OR2,TD1,OR2,0.040,0.742,70,OR2,false,,
+C-TD2-OR2,TD2,OR2,0.008,0.945,70,OR2,false,,
+C-AI1-PC1,AI1,PC1,-0.086,0.477,70,PC1,false,,
+C-TD1-PC1,TD1,PC1,0.082,0.502,70,PC1,false,,
+C-TD2-PC1,TD2,PC1,0.077,0.528,70,PC1,false,,
+C-AI1-PC2,AI1,PC2,0.341,0.004,70,PC2,true,"AI use ↔ Systematic and iterative process; ρ=0.341, p=0.004, n=70",III:PC2
+C-TD1-PC2,TD1,PC2,-0.091,0.453,70,PC2,false,,
+C-TD2-PC2,TD2,PC2,0.116,0.341,70,PC2,false,,
+C-AI1-PC3.a,AI1,PC3.a,0.447,0.000,70,PC3,true,"AI use ↔ Dedicated time to manage TD; ρ=0.447, p=0.000, n=70",III:PC3
+C-TD1-PC3.a,TD1,PC3.a,-0.113,0.350,70,PC3,false,,
+C-TD2-PC3.a,TD2,PC3.a,0.137,0.258,70,PC3,false,,
+C-AI1-TO1,AI1,TO1,0.366,0.002,70,TO1,true,"AI use ↔ Use of data and measurements; ρ=0.366, p=0.002, n=70",III:TO1
+C-TD1-TO1,TD1,TO1,-0.126,0.298,70,TO1,false,,
+C-TD2-TO1,TD2,TO1,0.097,0.425,70,TO1,false,,
+C-AI1-TO2,AI1,TO2,0.267,0.026,70,TO2,false,,
+C-TD1-TO2,TD1,TO2,0.086,0.479,70,TO2,false,,
+C-TD2-TO2,TD2,TO2,0.036,0.769,70,TO2,false,,
+C-AI1-OR3,AI1,OR3,0.313,0.008,70,OR3,true,"AI use ↔ Clarity of technical responsibility; ρ=0.313, p=0.008, n=70",III:OR3
+C-TD1-OR3,TD1,OR3,-0.086,0.480,70,OR3,false,,
+C-TD2-OR3,TD2,OR3,0.084,0.491,70,OR3,false,,
+C-AI1-PC5,AI1,PC5,0.376,0.001,70,PC5,true,"AI use ↔ Removal of TD; ρ=0.376, p=0.001, n=70",III:PC5
+C-TD1-PC5,TD1,PC5,0.109,0.369,70,PC5,false,,
+C-TD2-PC5,TD2,PC5,0.383,0.001,70,PC5,true,"perceived TD decrease ↔ Removal of TD; ρ=0.383, p=0.001, n=70",V:PC5
+C-AI1-PC6,AI1,PC6,0.317,0.007,70,PC6,true,"AI use ↔ Tracking of larger TD items; ρ=0.317, p=0.007, n=70",III:PC6
+C-TD1-PC6,TD1,PC6,-0.086,0.481,70,PC6,false,,
+C-TD2-PC6,TD2,PC6,0.200,0.097,70,PC6,false,,
+C-AI1-PC7,AI1,PC7,0.157,0.195,70,PC7,false,,
+C-TD1-PC7,TD1,PC7,-0.036,0.770,70,PC7,false,,
+C-TD2-PC7,TD2,PC7,0.370,0.002,70,PC7,true,"perceived TD decrease ↔ Helpfulness of code reviews; ρ=0.370, p=0.002, n=70",V:PC7
+C-AI1-TO6,AI1,TO6,0.316,0.008,70,TO6,true,"AI use ↔ Confidence in code analyzers; ρ=0.316, p=0.008, n=70",III:TO6
+C-TD1-TO6,TD1,TO6,0.155,0.199,70,TO6,false,,
+C-TD2-TO6,TD2,TO6,0.290,0.015,70,TO6,false,,
+C-AI1-TO7,AI1,TO7,0.257,0.032,70,TO7,false,,
+C-TD1-TO7,TD1,TO7,-0.058,0.634,70,TO7,false,,
+C-TD2-TO7,TD2,TO7,0.197,0.102,70,TO7,false,,
+C-AI1-TO8,AI1,TO8,0.319,0.007,70,TO8,true,"AI use ↔ Tools supporting TD level assessment and planning; ρ=0.319, p=0.007, n=70",III:TO8
+C-TD1-TO8,TD1,TO8,-0.026,0.832,70,TO8,false,,
+C-TD2-TO8,TD2,TO8,0.235,0.050,70,TO8,false,,

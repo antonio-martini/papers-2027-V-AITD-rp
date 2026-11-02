@@ -1,0 +1,64 @@
+statement_id,direction,result_reading
+DEC-01,decrease,Identifying bad practices and deprecated code is a possible enabling activity for TD reduction.
+DEC-02,decrease,Names AI code review and generation as activities.
+DEC-03,decrease,Reports adoption of AI review and implementation suggestions.
+DEC-04,decrease,Intentional smaller-TD work and lower time investment illustrate AI-assisted repayment.
+DEC-05,decrease,"Describes conditional TD reduction when AI follows guidelines and handles small, isolated changes."
+DEC-06,decrease,Consolidating methods and separating components illustrate structural refactoring.
+DEC-07,decrease,Code-block analysis is related to technical inspection.
+DEC-08,decrease,AI assistance with specific issues supplies possible task-level context for benefits.
+DEC-09,decrease,Explicitly connects AI-assisted review with less incorrect code.
+DEC-10,decrease,Suggests AI may propose better TD-related solutions than a developer.
+DEC-11,decrease,"Legacy refactoring, modernization, and clarity illustrate repayment activities."
+DEC-12,decrease,Underuse despite perceived potential qualifies claims about current benefits.
+DEC-13,decrease,Identifies only unnamed software assistance.
+DEC-14,decrease,Vetting before merge gives context for review and controlled integration.
+DEC-15,decrease,Explicitly contrasts useful AI review for code issues with an architectural-TD limitation.
+DEC-16,decrease,Investigation of complex issues can enable later maintenance work.
+DEC-17,decrease,Fixing bounded code-level TD with suitable prompting illustrates conditional repayment.
+DEC-18,decrease,Rapid human-directed changes suggest reduced implementation effort.
+DEC-19,decrease,Limited success on larger migration tasks qualifies AI benefit claims.
+DEC-20,decrease,Human-selected tasks and alternative solutions give context for useful assistance.
+DEC-21,decrease,"Within one account, perceived increases and decreases depend on developer expertise."
+DEC-22,decrease,Easier module refactoring and automatic tests illustrate assistance with debt-related work.
+DEC-23,decrease,Code understanding and user judgment are described as conditions for benefits.
+DEC-24,decrease,Difficulty with autonomous TD tasks qualifies current AI capability.
+DEC-25,decrease,Explicit new-code review benefits coexist with little help for old debt.
+DEC-26,decrease,Uncertainty about whether developers consider TD while prompting.
+DEC-27,decrease,A pull-request workflow with two review agents illustrates review infrastructure.
+DEC-28,decrease,Administrative/non-substantive entry.
+DEC-29,decrease,"Repetitive maintenance automation offers a benefit mechanism, qualified by limited current focus."
+DEC-30,decrease,Finding unused files and refactoring styles illustrate code cleanup.
+DEC-31,decrease,Explicitly describes easier AI-assisted refactoring of code with TD.
+DEC-32,decrease,Tentatively links simplification with debt removal.
+DEC-33,decrease,Easier tests and greater coverage are described as preventing new TD.
+INC-01,increase,Reports no perceived AI-related TD increase.
+INC-02,increase,Suggests AI code generation can introduce TD.
+INC-03,increase,Architecture-misaligned code and demanding review illustrate risk; acceptance by an owner supplies limited organizational context.
+INC-04,increase,Fast solutions with poorer code illustrate a possible speed/quality trade-off.
+INC-05,increase,Dead code and duplication illustrate forms of additional maintenance burden.
+INC-06,increase,Careless use is described as a condition for bad-pattern adoption.
+INC-07,increase,Says existing patterns are reused.
+INC-08,increase,Poorly understood code and insufficiently critical review illustrate how problematic output can be accepted.
+INC-09,increase,Uncritical acceptance illustrates a risk and the relevance of validation.
+INC-10,increase,Limited senior review capacity and standards mismatch qualify review as a safeguard.
+INC-11,increase,"Recognized poor suggestions may still be accepted, illustrating a possible quality trade-off."
+INC-12,increase,"Code bloat, architecture/documentation mismatch, and failures in review illustrate maintenance risk."
+INC-13,increase,Poor codebase fit illustrates a reported source of TD risk.
+INC-14,increase,Limited AI use combined with checking before merge provides a qualifying account.
+INC-15,increase,A brief answer suggests a limited perceived increase.
+INC-16,increase,Unfamiliar languages and weak ability to review outputs illustrate validation limitations.
+INC-17,increase,Context-window limits and verbose partial solutions illustrate technical limitations.
+INC-18,increase,Isolated numeric free-text entry.
+INC-19,increase,Architecture-misaligned quick fixes and duplication illustrate long-term maintenance concerns.
+INC-20,increase,Redundant implementation instead of reuse illustrates maintenance risk.
+INC-21,increase,Code review is explicitly described as stopping an AI-related increase.
+INC-22,increase,Reimplementation instead of library reuse illustrates a potential new-debt mechanism.
+INC-23,increase,"One account combines useful solutions with legacy-integration problems, illustrating mixed experiences."
+INC-24,increase,Checking output accompanies a reported absence of increased TD.
+INC-25,increase,Limited code understanding and difficult legacy integration illustrate maintenance risk.
+INC-26,increase,The account describes no added maintenance debt associated with assistance.
+INC-27,increase,Administrative/non-substantive entry.
+INC-28,increase,Mentions limited use inside an editor.
+INC-29,increase,"Use-dependent, hard-to-detect suboptimal solutions illustrate a validation challenge."
+INC-30,increase,Code quality and requirements mismatch illustrate a reported risk.

@@ -1,0 +1,23 @@
+item_id,area,label,question_wording,manuscript_item_id,archived_reported_increase,archived_reported_decrease
+BA1,Background,Experience,What is your experience with software development?,BA1,4,2
+BA3,Background,Team size,What is the size of your team?,BA3,0,0
+KN1,Knowledge,Use of TD in the organization,"We use the term ""Technical Debt"" when communicating across the organization",KN1,0,0
+KN2,Knowledge,Existing guidelines to manage TD,"In our organization, guidelines are available for guidance on how to manage Technical Debt",KN2,3,3
+AW1,Awareness,Percentage of time wasted because of TD,"On average, how much % of the total development time do you estimate was spent by your team(s) on extra activities due to the presence of Technical Debt in the system(s)?",AW1,2,3
+AW2,Awareness,Missed business opportunities,"We have missed business opportunities because of existing Technical Debt in the system(s) (e.g. we could not implement new features, new projects, we could not acquire new customers)",AW2,0,0
+EN2.c,Encouragement,Encouragement from other managers — deliberately take on TD for benefits,Other managers (inlcuding engineering managers) encourage my team to: [Deliberate taking on TD if they get benefits out of it (e.g. to speed up a delivery)],EN2,0,0
+ED1,Education,Facilitation of education sessions,"I have facilitated and/or participated in knowledge sharing sessions on the management of TD (e.g. education sessions, seminars, interest groups inthecompany,etc.)",ED1,3,2
+OR1,Organization,Clarity of budget responsibility,"It's clear for me and my team who is responsible to approve or deny budget (e.g. team capacity, team bandwidth) to remove TD",OR1,0,0
+OR2,Organization,Follow-up on TD decisions,"Someone will check if I have successfully removed TD (e.g. by code reviews etc.) and how much time was spent on the activity (it could be a manger, an architect, another team member, etc.)",OR2,2,2
+PC1,Process,Understanding of TD risks,It’s easy for me to understand if the current TD in the system(s) is risky (e.g. leading to negative consequences) or not,PC1,7,5
+PC2,Process,Systematic and iterative process,"My team iteratively engages in a systematic assessment (discussing costs, benefits and risks) of TD (this includes re-assessing known TD)",PC2,3,2
+PC3.a,Process,Dedicated time to manage TD — formal allocation,We have formally allocated time for removing TD,PC3,2,3
+TO1,Tools,Use of data and measurements,We use data and measurements to assess TD costs and benefits,TO1,0,0
+TO2,Tools,Tools chosen by teams,Are the current tools in your organization to manage TD more chosen by the teams or more chosen as standard tools by the organization? (adjust the bar to one or the other extreme according to your experience with the tools that you can use to manage TD),TO2,2,5
+OR3,Organization,Clarity of technical responsibility,It's clear for me and my team who is responsible for technical support if we need to add or remove TD that can affect other teams,OR3,1,1
+PC5,Process,Removal of TD,To what extent do you remove code-TD before releasing the software?,PC5,2,14
+PC6,Process,Tracking of larger TD items,"We track the bigger TD issues in our official backlogs, together with details on their cost to remove and their risks if not removed (bigger issues are e.g. multiple architectural componentsthatmightaffectotherteams)",PC6,0,0
+PC7,Process,Helpfulness of code reviews,"I think that, in our organization, code reviews helps identifying TD",PC7,9,7
+TO6,Tools,Confidence in code analyzers,We confidently use the output of code analyzers to identify TD automatically and plan refactoring,TO6,0,4
+TO7,Tools,Confidence in risk-assessment tools,We confidently use the output of tools to identify the costs and risks associated to TD to prioritize its removal,TO7,0,0
+TO8,Tools,Tools supporting TD level assessment and planning,"We confidently use the output of a tool to visualize the overall level of TD in our system(s), its costs and risks to plan future development",TO8,1,2

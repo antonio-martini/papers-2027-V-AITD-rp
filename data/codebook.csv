@@ -1,0 +1,10 @@
+code,definition,decrease_count,increase_count
+type of debt,"Identifies a debt type or a concrete debt-related quality problem, such as code debt, architectural debt, duplication, dead code or obsolete code. A reference to code or tests alone is insufficient to infer a debt type.",9,10
+tool,"Names a product, platform or model/tool class, or explicitly identifies agentic/autonomous assistance. A generic reference to AI alone is insufficient; activities such as code review or assistant-driven coding are coded as process unless a tool is also identified.",10,4
+process,"Describes a development or maintenance activity or workflow, including generation, review, verification, refactoring, testing, prompting, investigation, reuse or integration.",28,21
+benefit,"Describes a reported or anticipated useful effect, such as ease, speed, improved code, assistance, TD reduction or prevention. A reported absence of AI-related TD increase is also a favorable outcome; it does not imply repayment of existing debt.",23,8
+limitation,"Describes a constraint, failure, risk, negative effect, capability gap or explicit uncertainty about a claim. Conditions that restrict usefulness can receive this tag alongside benefit.",13,21
+example,"Provides a concrete artefact, prompt, workflow configuration or situation illustrating a claim. A tool name or a generic activity alone is insufficient.",7,7
+specification,"Identifies rules, standards, requirements, prompts, instructions, codebase context or configuration that guide AI behavior or provide criteria for its output.",7,8
+scope,"States boundaries or extent, such as task size or complexity, code versus architecture, new versus legacy work, user expertise, or the stated extent of use or impact. Generic task mentions and hedging alone are insufficient.",16,14
+decision,"Addresses task selection, output acceptance or rejection, assessment of alternatives, priorities, or responsibility for human/AI judgment. Merely naming a task does not establish a decision.",5,13
