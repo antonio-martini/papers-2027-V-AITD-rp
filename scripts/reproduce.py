@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 PACKAGE = Path(__file__).resolve().parent.parent
-NAMES = ('statements', 'codebook', 'questionnaire_items', 'correlations', 'patterns', 'links')
+NAMES = ('statement_anonym', 'codebook', 'questionnaire_items', 'correlations', 'patterns', 'links')
 
 
 def require(condition, message):
@@ -32,18 +32,17 @@ def anchor(value):
 
 def main():
     tables = {name: load(name) for name in NAMES}
-    statements = index(tables['statements'], 'statement_id')
+    statements = index(tables['statement_anonym'], 'statement_id')
     codes = index(tables['codebook'], 'code')
     items = index(tables['questionnaire_items'], 'item_id')
     correlations = index(tables['correlations'], 'correlation_id')
     patterns = index(tables['patterns'], 'pattern_id')
     require((len(statements), len(codes), len(items), len(correlations), len(patterns)) == (63, 9, 22, 66, 10), 'Unexpected paper scope')
+    require(all(list(r) == ['statement_id', 'direction'] for r in statements.values()), 'Unexpected anonymous statement schema')
     require(Counter(r['direction'] for r in statements.values()) == {'decrease': 33, 'increase': 30}, 'Question-context counts differ')
     for sid, r in statements.items():
         require(re.fullmatch(r'(DEC|INC)-\d{2}', sid) is not None, 'Invalid statement ID')
         require(r['direction'] == ('decrease' if sid.startswith('DEC') else 'increase'), 'Statement direction differs')
-        require(1 <= len(r['anonymous_statement'].split()) <= 30, 'Invalid summary length')
-        require(not any(c in r['anonymous_statement'] for c in ['“', '”', '"']), 'Summary contains quotation formatting')
 
     metadata = {}
     alias_lookup = {}
@@ -111,8 +110,8 @@ def main():
               'questionnaire_item_links': counts_by_type['questionnaire_item'],
               'correlation_pattern_links': counts_by_type['correlation'] + counts_by_type['pattern'],
               'total_links': len(edge_keys), 'archived_target_identifiers': len(alias_lookup)}
-    lines = ['# Anonymous coding traceability', '', 'Statements appear once; the reverse indexes link back to them.',
-             'Recorded content assignments and mapping targets are preserved. Rationales and evidential limits provide interpretive context.', '', '## Coverage', '',
+    lines = ['# Anonymous coding traceability', '', 'Statement IDs appear once; the reverse indexes link back to them.',
+             'Recorded content assignments and mapping targets are preserved. Statement inputs contain only IDs and question context; statement text and interpretive notes are not included.', '', '## Coverage', '',
              '| Measure | Count |', '| --- | ---: |']
     lines += [f'| {k.replace("_", " ")} | {v} |' for k, v in counts.items()]
     lines += ['', 'All code and selected-item counts match their recorded coverage. Zero-link targets and unassigned statements remain included.', '',
@@ -143,13 +142,12 @@ def main():
         lines += ['Archived IDs: ' + r['archived_target_ids'] + '.', '']
         lines += ['Linked statements: ' + statement_refs(by_target[r['kind'], key]), '']
 
-    lines += ['## Statement traceability', '', 'Each entry is an anonymous analytical summary, not a participant quotation.', '']
+    lines += ['## Statement traceability', '', 'Each entry records an anonymous statement ID, question context, and retained connections.', '']
     for sid, r in statements.items():
         code_edges = [e for e in by_statement[sid] if e['target_type'] == 'theme']
-        lines += [f'<a id="{anchor(sid)}"></a>', '### ' + sid, '', r['anonymous_statement'], '',
+        lines += [f'<a id="{anchor(sid)}"></a>', '### ' + sid, '',
                   'Question context: ' + r['direction'] + '.', '', 'Content codes: ' + ('; '.join(e['target_id'] for e in code_edges) or 'No assignment') + '.', '',
-                  'Coding rationale: ' + r['coding_note'], '',
-                  'Result interpretation: ' + r['result_reading'], '', 'Evidential limit: ' + r['evidential_limit'], '', 'Connections:', '']
+                  'Connections:', '']
         edges = [e for e in by_statement[sid] if e['target_type'] != 'theme']
         for e in edges:
             target = e['target_id']
@@ -168,7 +166,7 @@ def main():
     for path in sorted(PACKAGE.rglob('*')):
         if path.is_file() and path.name != 'validation.json' and not {'.git', '__pycache__'}.intersection(path.relative_to(PACKAGE).parts):
             checksums[path.relative_to(PACKAGE).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
-    validation = {'schema_version': 7, 'status': 'passed', 'counts': counts,
+    validation = {'schema_version': 8, 'status': 'passed', 'counts': counts,
                   'code_coverage_checks': code_coverage, 'item_coverage_checks': item_coverage, 'file_checksums': checksums}
     (PACKAGE / 'validation.json').write_text(json.dumps(validation, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'status': 'passed', **counts}, indent=2))

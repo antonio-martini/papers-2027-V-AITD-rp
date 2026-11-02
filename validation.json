@@ -1,5 +1,5 @@
 {
-  "schema_version": 7,
+  "schema_version": 8,
   "status": "passed",
   "counts": {
     "statements": 63,
@@ -206,16 +206,14 @@
     }
   ],
   "file_checksums": {
-    "README.md": "1bc1b84446507d1215ee245eb7fba2261ceefd53f1b30b09953b19897024cc45",
-    "TABLE_IV.md": "b46fda0d02e1bf31541b6e7650979277f2a7b850566a853f23ee809ec1e65d5b",
-    "TRACEABILITY.md": "2a7262ce374d3da4f8a9215fdb00d988d75f2ccd8246e1f7d31fad7ae9f7aab1",
+    "README.md": "a81880851ef37a267086a69fef2ff56a8e7f3d99844c791ea5a1dd4545c322bc",
+    "TRACEABILITY.md": "f62dc7917afebc3ceddfb650403dc0b7aebd56253419074fe67df074d23abaeb",
     "data/codebook.csv": "4fae33e90429cbc69247d53424024e54a80af9b08bb4828e81be4d4cafe0ff58",
     "data/correlations.csv": "2a9f008f58ba9adafb1ba237dceb1190b25ec42dd2ce364d23c0436af30c3c2e",
     "data/links.csv": "e2a76d1365fe93c31bac384937b4d370070585eca539c4c1d81238e6947a3d32",
     "data/patterns.csv": "41cd5b4494fed6574e2618a932e0ebaa6d7296ba764ecd5947fcee5ca89c6d2f",
     "data/questionnaire_items.csv": "17c515e2b1c373271dc6cad7f492d845ebad8be1c96459f7f3ba99de786267db",
-    "data/statement_anonym.csv": "7fe23d5aa0fed8363ade91eb8af4472ea4e0c2fa04b1629158a1fe0fdaed446e",
-    "data/statements.csv": "06b20e4e31bd5ce326958a9987529ceb88383df8a928a58fecc164a4fd06561f",
-    "scripts/reproduce.py": "3f7a7964598c78522f984bbc560c78e840fb8fdf44d7fa112298a296ba9b102d"
+    "data/statement_anonym.csv": "4d59523b085acfc4e9d30445570f4ec2d517e138c753704725fcae3f1d64ecff",
+    "scripts/reproduce.py": "d6b7840f0283ab1b3d38dc2ed655aeae259fd15411792a60be5aed939107aad8"
   }
 }
